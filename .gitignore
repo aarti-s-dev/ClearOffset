@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- ClearOffset Specifics ---
+# Ignore the data folder where results are saved
+data/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Personal API configuration
+.env
